@@ -1,0 +1,31 @@
+.price
+    padding-top: 60px
+    &__wrapper
+        display: grid
+        grid-template-columns: repeat(2, 367px)
+        grid-template-rows: repeat(2, 44px)
+        justify-content: space-between
+        grid-row-gap: 15px
+        margin-top: 60px
+    &__title
+        padding-left: 25px
+        display: flex
+        position: relative
+        justify-content: space-between
+        font-weight: 700
+        font-size: 14px
+        font-weight: bold
+        line-height: 21px
+        color: #000000
+        @include before_circle-small
+        &_grn
+            font-weight: 700
+            font-size: 14px
+            line-height: 21px
+    &__descr
+        font-size: 12px
+        line-height: 18px
+        margin-top: 5px
+
+.container_price
+    width: 1140px

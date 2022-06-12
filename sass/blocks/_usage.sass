@@ -1,0 +1,57 @@
+.usage
+    padding-top: 120px
+    &__wrapper
+        padding: 60px 10px 0 10px
+        display: grid
+        grid-template-columns: repeat(4, 270px)
+        grid-template-rows: repeat(2, 270px)
+        gap: 13px
+    &__item
+        border: 1px solid #000000
+        padding: 30px 30px 25px 30px
+    &__img
+        margin-bottom: 25px
+        &-diff
+            margin-top: 10px
+            margin-bottom: 40px
+    &__sub
+        margin-bottom: 15px
+    &__descr
+        font-size: 12px
+        line-height: 18px
+        color: #000000
+    &__percents
+        display: grid
+        padding-top: 100px
+        grid-template-columns: repeat(3, 350px)
+        grid-template-rows: repeat(2, 70px)
+        row-gap: 30px
+        column-gap: 45px
+    &__elem
+        &-title
+            position: relative
+            font-weight: 700
+            display: flex
+            justify-content: space-between
+            font-size: 14px
+            line-height: 21px
+            padding-top: 8px
+            padding-left: 13px
+            @include before-circle1
+            font-weight: bold
+    &__scale
+        background-color: #E8E4DE
+        height: 14px
+        margin-top: 20px
+        border-radius: 4px
+        width: 100%
+        &-yellow
+            background-color: $main-color
+            width: 350px
+            height: 14px
+            margin-top: 20px
+            border-radius: 4px
+
+        
+.container__usage
+    width: 1140px
